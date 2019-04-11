@@ -1,0 +1,56 @@
+body {
+    background-color: lightgray;
+}
+
+.card {
+    background-color: white;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+h1 {
+    color : darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+h2 {
+    color : darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    background-color:darkcyan;
+}
+
+.navbar-default{
+    padding-left:80px;
+}
+
+.row{
+    background-color: white;
+}
+
+.icon{
+    width:30%;
+}
+
+.medium_img{
+    width:60%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.small_img{
+    width:40%;
+    
+}
+
+.highlight_icon{
+    width: 30%;
+    border-width: 2.5px;   border-color: darkcyan;   border-style: solid;
+}

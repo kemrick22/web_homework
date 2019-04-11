@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<title>Humidity Visualization</title>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+      <strong><a class="navbar-brand" href="landing.html"><font color ="white" face="times">Lattitude</font></a></strong>
+    </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plot <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="max_temperature.html">Max Temperature</a></li>
+            <li><a href="humidity.html">Humidity</a></li>
+            <li><a href="cloudiness.html">Cloudiness</a></li>
+            <li><a href="wind_speed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comparison.html">Comparison</a></li>
+        <li><a href="data.html">Data</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-8">
+          <h1 class="card">Humidity</h1>
+          <hr>
+          <img class="medium_img" src="Resources\assets\images\Fig2.png"></img>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed at ante. Mauris eleifend, quam a vulputate dictum,
+              massa quam dapibus leo, eget vulputate orci purus ut
+              lorem. In fringilla mi in ligula. Pellentesque aliquam
+              quam vel dolor. Nunc adipiscing. Sed quam odio, tempus
+              ac, aliquam molestie, varius ac, tellus. Vestibulum ut
+              nulla aliquam risus rutrum interdum. Pellentesque lorem.
+              Curabitur sit amet erat quis risus feugiat viverra.</p>
+      </div>
+      <div class="col-md-4">
+          <h2> Visualizations</h2>
+          <hr>
+          <a href="max_temperature.html"><img class="icon" src="Resources\assets\images\Fig1.png"></img></a>
+          <a href="humidity.html"><img class="highlight_icon" src="Resources\assets\images\Fig2.png"></img></a>
+          <a href="cloudiness.html"><img class="icon" src="Resources\assets\images\Fig3.png"></img></a>
+          <a href="wind_speed.html"><img class="icon" src="Resources\assets\images\Fig4.png"></img></a>
+      </div>
+  </div>
+</div>
+
+</html>
